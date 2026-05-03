@@ -21,7 +21,7 @@ from tools.member1_extract_resume import (
 logger = logging.getLogger("Member1_ResumeAgent")
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL_NAME = "llama3.2:1b"
+MODEL_NAME = "qwen2.5:7b"
 AGENT_NAME = "Member1_ResumeAgent"
 UPLOAD_DIR = Path("data/resumes")
 

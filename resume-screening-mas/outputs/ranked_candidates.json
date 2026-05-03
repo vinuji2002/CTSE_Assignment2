@@ -1,13 +1,31 @@
 [
   {
-    "name": "Cv Disara Methmali",
-    "score": 45.0,
-    "risk_level": "Medium",
+    "name": "Jayarathna G W N R 2",
+    "score": 16.0,
+    "risk_level": "High",
     "risk_flags": [
-      "Experience duration not stated on resume"
+      "Missing critical skill: Docker",
+      "Missing critical skill: REST APIs",
+      "Missing critical skill: Git",
+      "Overall profile is a weak match for this role"
     ],
-    "fit_reasoning": "The candidate's proficiency in Python and Docker is a notable asset, but their lack of experience in related fields makes them less suitable for the job.",
-    "score_reasoning": "Based on the provided information, it appears that the candidate has limited experience in related fields, making them less suitable for the job.",
+    "fit_reasoning": "Jayarathna has the required Python and SQL skills but lacks experience with Docker, REST APIs, and Git. He meets the minimum experience requirements.",
+    "score_reasoning": "Automated fallback score.",
     "rank": 1
+  },
+  {
+    "name": "Vinuji Palihakkara",
+    "score": 8.0,
+    "risk_level": "High",
+    "risk_flags": [
+      "Missing critical skill: SQL",
+      "Missing critical skill: Docker",
+      "Missing critical skill: REST APIs",
+      "Missing critical skill: Git",
+      "Overall profile is a weak match for this role"
+    ],
+    "fit_reasoning": "Vinuji Palihakkara has the required Python skill but lacks in SQL, Docker, REST APIs, and Git, meeting only the minimum experience requirement for the position.",
+    "score_reasoning": "Automated fallback score.",
+    "rank": 2
   }
 ]

@@ -78,7 +78,7 @@ def main() -> None:
     state = adapt_member3_output_for_member4(state)
     save_state(state)
 
-    state = member4_ranking_report_node(state, model_name="llama3.2:1b", top_n=2)
+    state = member4_ranking_report_node(state, model_name="qwen2.5:7b", top_n=2)
     save_state(state)
 
     print("\n=== Ranked Candidates ===")

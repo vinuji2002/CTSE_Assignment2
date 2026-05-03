@@ -199,7 +199,7 @@ def main() -> None:
 
     state = member4_ranking_report_node(
         state,
-        model_name="llama3.2:1b",
+        model_name="qwen2.5:7b",
         top_n=top_n,
     )
     save_state(state)
@@ -240,6 +240,8 @@ def main() -> None:
     print(f"  State  → state/shared_state.json")
     print(f"{'='*50}")
 
+def run_pipeline():
+    main()
 
 if __name__ == "__main__":
     main()

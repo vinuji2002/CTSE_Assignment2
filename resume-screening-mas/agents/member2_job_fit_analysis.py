@@ -5,10 +5,10 @@ Member 2 — Job Fit Analysis Agent
 Responsibilities:
   - Read parsed_candidates and job_requirements from shared state
   - Use deterministic tools to compute structural skill/experience matches
-  - Call the LLM (llama3.2:1b via Ollama HTTP API) to produce fit reasoning
+  - Call the LLM (qwen2.5:7b via Ollama HTTP API) to produce fit reasoning
   - Write fit_analyses back to shared state
 
-Model: llama3.2:1b  (local Ollama)
+Model: qwen2.5:7b  (local Ollama)
 Tool:  tools/member2_parse_jd.py  (already provided — parse_job_description,
                                     match_candidate_to_job)
 """
@@ -26,7 +26,7 @@ from tools.member2_parse_jd import parse_job_description, match_candidate_to_job
 logger = logging.getLogger("Member2_FitAgent")
 
 OLLAMA_URL  = "http://localhost:11434/api/chat"
-MODEL_NAME  = "llama3.2:1b"
+MODEL_NAME  = "qwen2.5:7b"
 AGENT_NAME  = "Member2_FitAgent"
 
 
