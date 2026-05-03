@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\CTSE_Assignment_2\CTSE_Assignment2\resume-screening-mas\venv"
+VIRTUAL_ENV="D:\CTSE_Assignment2_Merged\CTSE_Assignment2\resume-screening-mas\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

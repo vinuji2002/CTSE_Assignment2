@@ -9,7 +9,7 @@ import requests
 def call_llm(
     system_prompt: str,
     user_prompt: str,
-    model: str = "llama3.2:1b",
+    model: str = "qwen2.5:7b",
     max_tokens: int = 1024,
     temperature: float = 0.1,
 ) -> str:
